@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@color/light_green"
+    android:layout_height="?attr/actionBarSize">
+    <TextView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10sp"
+        android:gravity="center_vertical"
+        android:text="Setting jarak"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:max="20"
+            android:min="5" />
+
+        <TextView
+            android:id="@+id/tvValue"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="@color/dc_darkgray"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tvOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_button_green"
+        android:text="OK"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

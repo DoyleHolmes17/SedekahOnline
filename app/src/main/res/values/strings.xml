@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Spot Sedekah</string>
+    <string name="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="GPSAlertDialogTitle">Location</string>
+    <string name="GPSAlertDialogMessage">Location Services not available</string>
+    <string name="location">Location</string>
+    <string name="location_desc">Location permission is needed to display your current location, would you like to reconsider?</string>
+
+    <string name="compass_dial">Compass Dial</string>
+    <string name="compass_hands">Compass Hands</string>
+
+    <string name="text_add">Terimakasih sudah melakukan tambah data semoga menjadi tambahan pahala untuk kita</string>
+
+
+    <string-array name="tipe_mustahiq">
+        <item>-- Tipe Mustahiq --</item>
+        <item>Fakir</item>
+        <item>Miskin</item>
+        <item>Amil</item>
+        <item>Mu'alaf</item>
+        <item>Riqab (budak)</item>
+        <item>Gharim (orang yang memiliki hutang)</item>
+        <item>Fisabilillah</item>
+        <item>Ibnu sabil (musafir)</item>
+
+    </string-array>
+</resources>

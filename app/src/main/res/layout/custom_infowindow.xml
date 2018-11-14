@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="2dip"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="30"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Nama"
+                    android:textSize="10dip"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/nameTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amixx XX Soluxxxxx"
+                    android:textSize="10dip"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="30"
+                    android:layout_height="wrap_content"
+                    android:text="No Hp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="10dip"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/mobileTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91-98XXXXX200"
+                    android:textSize="10dip"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="30"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:layout_marginRight="10dp"
+                    android:textSize="10dip"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:layout_marginRight="10dp"
+                    android:textSize="10dip"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/alamatTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="android@gmail.comandroid@gmail.comandroid@gmail.comandroid@gmail.comandroid@gmail.comandroid@gmail.comandroid@gmail.com"
+                    android:textSize="10dip"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>

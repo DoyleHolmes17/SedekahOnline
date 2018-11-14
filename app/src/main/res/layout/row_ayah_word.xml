@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_ayah_word"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/verse_id_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dc_darkgray"
+        android:layout_gravity="start|center_horizontal"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"></TextView>
+
+    <TextView
+        android:id="@+id/arabic_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dc_darkgray"
+        android:lineSpacingExtra="2dp"
+        android:padding="5dp"
+        android:visibility="gone"></TextView>
+
+
+    <TextView
+        android:id="@+id/translate_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/dc_darkgray"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

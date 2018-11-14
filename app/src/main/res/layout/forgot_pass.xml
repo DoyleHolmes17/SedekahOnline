@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Masukkan Email untuk menerima lupa password"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_edittext"
+            android:hint="email"
+            android:inputType="text"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:textColorHint="@color/dc_lightestgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <test.jinesh.captchaimageviewlib.CaptchaImageView
+                android:id="@+id/imageCaptcha"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="6" />
+
+            <ImageView
+                android:id="@+id/regenCaptcha"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/ic_menu_rotate"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etCapthcha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_edittext"
+            android:hint="Masukkan Capthca"
+            android:inputType="text"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:textColorHint="@color/dc_lightestgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button_white"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Kirim"
+                android:textColor="@color/light_green" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
